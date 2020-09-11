@@ -1,0 +1,48 @@
+{% extends 'foodiesapp/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- start flexslider -->
+<div class="flexslider">
+	<ul>
+		<li class="mark">
+			<img src="{% static 'foodiesapp/images/slider-img1.jpg' %}" alt="slider-img1.jpg">
+			<div class="flex-caption">
+				<h2 class="slider-title">Welcome to Foodies</h2>
+				<h3 class="slider-subtitle">Fresh and delicious food.</h3>
+			</div>
+		</li>
+		<!-- <li>
+			<img src="{% static 'foodiesapp/images/slider-img2.jpg' %}" alt="Pizza Image 2">
+			<div class="flex-caption">
+				<h2 class="slider-title">Freshly cooked food everyday</h2>
+				<h3 class="slider-subtitle">Premium Quality, Finest Ingredients</h3>
+			</div>
+		</li> -->
+	</ul>
+</div> 
+<!-- end flexslider -->
+
+
+<!-- Start contact form in use -->
+<footer id="contact" class="contform">
+	<section class="splitcontact">
+		<h1 class="newcont">Contact Us</h1>
+		<section class="alt">
+			<h3>Name</h3>
+			<p>Ruhi Prasla</p>
+		</section>
+		<section>
+			<h3>Phone</h3>
+			<p>(512) 568-4619</p>
+		</section>
+		<section>
+			<h3>Email</h3>
+			<p>ruhiprasla94@gmail.com</p>
+		</section>
+	</section>
+</footer>
+<!-- end contact for in use -->
+
+{% endblock %}
