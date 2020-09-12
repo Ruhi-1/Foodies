@@ -1,0 +1,143 @@
+{% extends 'foodiesapp/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Start Body Section -->
+    <section id="gallery" class="templatemo-section templatemo-light-gray-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center text-uppercase">Coffees</h2>
+					<hr>
+                </div> 
+                <div class="col-md-12">
+                    <a class="subHeadCoffee" href="#hotcoffee"> Hot Coffees</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="subHeadCoffee" href="#coldcoffee"> Cold Coffees</a>
+                    <hr class="undlin">
+                </div> 
+                <br>
+                <div>
+                    <p class="styhotcoff" id="hotcoffee">Hot Coffees</p>
+                </div>
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/hot_coffee1.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 1">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Caffe Americano </h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/hot_coffee2.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 2">
+						<div class="gallery-des3">
+                            <h4 class="kolaches">Cappuccino </h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/hot_coffee3.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des2">
+							<h4 class="kolaches">Espresso</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/hot_coffee4.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Caffe Latte</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/hot_coffee5.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Caramel Macchiato</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/hot_coffee6.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 3">
+						<div class="gallery-des3">
+                            <h4 class="kolaches">Caffe Mocha</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <!-- <div class="space"></div> -->
+                <br>
+                <hr class="undlin" id="coldcoffee">
+                <div class="space" >
+                    <p class="styhotcoff">Cold Coffees</p>
+                </div>
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/cold_coffee1.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 1">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Iced Caffe Americano </h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/cold_coffee2.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 2">
+						<div class="gallery-des3">
+                            <h4 class="kolaches">Cold Coffee </h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/cold_coffee3.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des2">
+							<h4 class="kolaches">Iced Espresso</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/cold_coffee4.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Iced Caffe Latte</h4>
+							<h5>S$3.25</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/cold_coffee5.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Iced Caramel Macchiato</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/cold_coffee6.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 3">
+						<div class="gallery-des3">
+                            <h4 class="kolaches">Iced Caffe Mocha</h4>
+							<h5>$3.25</h5>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+	</section>
+    <!-- End Body Section -->
+
+{% endblock %}

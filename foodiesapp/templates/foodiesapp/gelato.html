@@ -1,0 +1,73 @@
+{% extends 'foodiesapp/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Start Body Section -->
+    <section id="gallery" class="templatemo-section templatemo-light-gray-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center text-uppercase">Gelato</h2>
+					<hr>
+				</div> 
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/gelato1.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 1">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Chocolate Gelato </h4>
+							<h5>Single &nbsp;&nbsp;&nbsp; $5.99</h5>
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/gelato2.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 2">
+						<div class="gallery-des3">
+                            <h4 class="kolaches">Vanilla Gelato </h4>
+							<h5>Single &nbsp;&nbsp;&nbsp; $5.99</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/gelato3.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des2">
+							<h4 class="kolaches">Strawberry Gelato </h4>
+							<h5>Single &nbsp;&nbsp;&nbsp; $5.99</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/gelato4.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Cookies & Cream Gelato </h4>
+							<h5>Single &nbsp;&nbsp;&nbsp; $5.99</h5>
+						</div>
+					</div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/gelato5.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 4">
+						<div class="gallery-des3">
+							<h4 class="kolaches">Expresso Gelato </h4>
+							<h5>Single &nbsp;&nbsp;&nbsp; $5.99</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="gallery-wrapper">
+						<img src="{% static 'foodiesapp/images/gelato6.jpg' %}" class="img-responsive gallery-img" alt="Kolaches 3">
+						<div class="gallery-des3">
+                            <h4 class="kolaches">Mango Gelato</h4>
+							<h5>Single &nbsp;&nbsp;&nbsp; $5.99</h5>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+	</section>
+    <!-- End Body Section -->
+
+{% endblock %}
