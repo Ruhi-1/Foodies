@@ -1,0 +1,76 @@
+{% extends 'foodiesapp/base.html' %}
+{% load static %}
+
+{% block content %}
+   
+   <!-- Start Body Section -->
+   <section id="gallery" class="templatemo-section templatemo-light-gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">                   
+                <h2 class="text-center text-uppercase">Lunch</h2>
+                <h4 class="text-center">Fresh! Make your own!</h3>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-4">                   
+                <h4 class="t_toast">STYLE</h4>
+                <br>
+                <h4 class="t_toast">Taco</h4>
+                <h6 class="t_toast">(2 Tacos)</h6>
+                <img class="tacosty" src="{% static 'foodiesapp/images/taco1.jpg' %}">
+                <h4 class="t_toast">Burrito</h4>
+                <img class="tacosty" src="{% static 'foodiesapp/images/burrito1.jpg' %}">
+                <h4 class="t_toast">Bowl</h4>
+                <img class="tacosty" src="{% static 'foodiesapp/images/bowl.jpg' %}">
+            </div>
+            <div class="col-md-8 v-divider">
+                <h4 class="t_toast">PROTEIN</h4>
+                <br>
+                <div class="title">
+                    <span class="name">Chicken</span>
+                    <span class="date">$5.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Chicken Fajitas</span>
+                    <span class="date">$5.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Carintas</span>
+                    <span class="date">$5.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Chicharron</span>
+                    <span class="date">$5.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Pastor</span>
+                    <span class="date">$5.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Steak</span>
+                    <span class="date">$6.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Barbacoa</span>
+                    <span class="date">$6.99</span>
+                </div><br><br>
+                <div class="title">
+                    <span class="name">Beef Fajita</span>
+                    <span class="date">$6.99</span>
+                </div><br><br><br><br>
+                <div class="title">
+                    <span class="name">Single Taco</span>
+                    <span class="date">$2.99</span>
+                </div><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <p>Add extra meat for &nbsp;&nbsp;$2.99 &nbsp;| &nbsp;Guacamole for &nbsp;&nbsp;$1</p><br>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Body Section -->
+
+{% endblock %}

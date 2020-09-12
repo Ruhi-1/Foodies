@@ -641,9 +641,12 @@ html[xmlns] .slides {
 }
 .title .date { 
   float:right; 
+  font-size: 20px;
+
 }
 .title .name { 
   float:left;
+  font-size: 20px;
 }
 /* End lunch */
 

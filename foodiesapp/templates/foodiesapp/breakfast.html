@@ -1,0 +1,68 @@
+{% extends 'foodiesapp/base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Start Body Section -->
+<section id="gallery" class="templatemo-section templatemo-light-gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">                   
+                <h2 class="text-center text-uppercase">Breakfast</h2>
+                <h4 class="text-center">Fresh! Make your own!</h3>
+            </div>
+            <hr>
+        </div>
+        <h3 class="t_toast">Tacos & Burritos</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                    <img class="icon1" src="{% static 'foodiesapp/images/taco.jpg' %}">
+                    <div class="gallery-des6">
+                        <h4 class="kolaches">$1.99 </h4>
+                    </div>
+            </div>
+            <div class="col-sm-6">
+                    <img class="icon1" src="{% static 'foodiesapp/images/burrito.jpg' %}">
+                    <div class="gallery-des6">
+                        <h4 class="kolaches">$3.99 </h4>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="breakfast">
+                    <h4 class="kolaches">Bacon, Egg, n Cheese </h4>
+                    <h4 class="kolaches">Potato, Egg, n Cheese </h4>
+                    <h4 class="kolaches">Sausage, Egg, n Cheese </h4>
+                    <h4 class="kolaches">Chorizo, Egg, n Cheese </h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <h3 class="t_toast">Texas Toast</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="breakfast">
+                    <img class="icon1" src="{% static 'foodiesapp/images/toast.jpg' %}">
+                    <div class="gallery-des7">
+                        <h4 class="kolaches">$2.99</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="breakfast">
+                    <h4 class="kolaches">Bacon, Egg, n Cheese </h4>
+                    <h4 class="kolaches">Ham, Egg, n Cheese </h4>
+                    <h4 class="kolaches">Sausage, Egg, n Cheese </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Body Section -->
+
+{% endblock %}
