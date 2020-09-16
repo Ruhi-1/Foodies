@@ -64,7 +64,7 @@
   }
   mark {
     color: #000;
-    background: #ff0;
+    background: none;
   }
   small {
     font-size: 80%;
@@ -1311,7 +1311,7 @@
   .mark,
   mark {
     padding: 0.2em;
-    background-color: #fcf8e3;
+    background-color: none;
   }
   .text-left {
     text-align: left;
