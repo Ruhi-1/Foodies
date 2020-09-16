@@ -48,25 +48,25 @@ $(document).on('click', '.dropdown-menu', function (e) {
 });
 
 // make it as accordion for smaller screens
-// if ($(window).width() < 992) {
-//   $('.dropdown-menu a').click(function(e){
-//     e.preventDefault();
-//       if($(this).next('.submenu').length){
-//         $(this).next('.submenu').toggle();
-//       }
-//       $('.dropdown').on('hide.bs.dropdown ', function () {
-//       $(this).find('.submenu').open();
-//   })
-//   });
-// }
+if ($(window).width() < 992) {
+  $('.dropdown-menu a').click(function(e){
+    e.preventDefault();
+      if($(this).next('.submenu').length){
+        $(this).next('.submenu').toggle();
+      }
+      $('.dropdown').on('hide.bs.dropdown ', function () {
+      $(this).find('.submenu').open();
+  })
+  });
+}
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-// function myFunction() {
-//   var x = document.getElementById("myTopnav");
-//   if (x.className === "topnav") {
-//     x.className += " responsive";
-//   } else {
-//     x.className = "topnav";
-//   }
-// }
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 

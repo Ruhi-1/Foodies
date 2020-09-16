@@ -1,18 +1,19 @@
 from decimal import Decimal
 from django.conf import settings
-from shop.models import Product
+# from foodiesapp.models import Product
 
 class Cart(object):
-    """
-    Initialize the cart
-    """
+    def __init__(self, request):
+        """
+        Initialize the cart
+        """
 
-    self.session = request.session
-    cart = self.session.get(settings.CART_SESSION_ID)
-    if not cart:
-        # save an empty cart in the session
-        cart = self.session[settings.CART_SESSION_ID] = {}
-    self.cart = cart
+        self.session = request.session
+        cart = self.session.get(settings.CART_SESSION_ID)
+        if not cart:
+            # save an empty cart in the session
+            cart = self.session[settings.CART_SESSION_ID] = {}
+        self.cart = cart
 
 def add(self, product, quantity=1, update_quantity=False):
         """
@@ -58,17 +59,17 @@ def __iter__(self):
             item['total_price'] = item['price'] * item['quantity']
             yield item
 
-    def __len__(self):
-        """
-        Count all items in the cart.
-        """
-        return sum(item['quantity'] for item in self.cart.values())
+def __len__(self):
+    """
+    Count all items in the cart.
+    """
+    return sum(item['quantity'] for item in self.cart.values())
 
-    def clear(self):
-        # empty cart
-        self.session[settings.CART_SESSION_ID] = {}
-        self.session.modified = True
+def clear(self):
+    # empty cart
+    self.session[settings.CART_SESSION_ID] = {}
+    self.session.modified = True
 
-    def get_total_price(self):
-        return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
+def get_total_price(self):
+    return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
 
