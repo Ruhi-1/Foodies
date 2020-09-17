@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>Foodies</title>
+	<!-- add icon link -->
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -41,16 +42,16 @@
 				</button>
 				<a href="#home" class="navbar-brand smoothScroll"><img class="logoimg" src="{% static 'foodiesapp/images/logo.jpg' %}" alt="logo.jpg"></a>
 			</div>
-			<div class="topnav" id="myTopnav">
-			<div class="collapse navbar-collapse">
+			<!-- <div class="topnav" id="myTopnav"> -->
+			<div class="collapse navbar-collapse" id="main_nav">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="{% url 'index' %}">HOME</a></li>
-					<li><a href="{% url 'index' %}">ABOUT</a></li>
+					<li class="nav-item"><a class="nav-link" href="{% url 'index' %}">HOME</a></li>
+					<li class="nav-item"><a class="nav-link" href="{% url 'index' %}">ABOUT</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#Menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
 							<!-- <i class="fa fa-caret-down"></i> -->
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-toggle" href="#" > Fresh Deli &raquo</a>
+							<li><a class="dropdown-item" href="#" > Fresh Deli &raquo</a>
 								<ul class=" submenu dropdown-menu">
 									<li><a class="dropdown-item" href="{% url 'breakfast' %}">Breakfast</a></li>
 									<li><a class="dropdown-item" href="{% url 'lunch' %}">Lunch</a></li>
@@ -64,15 +65,15 @@
 									<li><a class="dropdown-item" href="{% url 'bread' %}">Bread</a></li>
 								</ul>
 							</li>
-							<li><a class="dropdown-item" href="{% url 'gelato' %}">Gelato</a></li>
-							<li><a class="dropdown-item" href="{% url 'coffee' %}">Coffee</a></li>
+							<li class="nav-item"><a class="nav-link" href="{% url 'gelato' %}">Gelato</a></li>
+							<li class="nav-item"><a class="nav-link" href="{% url 'coffee' %}">Coffee</a></li>
 						</ul>
 					</li> 
 					<li><a href="{% url 'index' %}">CONTACT</a></li>						
 					<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a> -->
 				</ul>
 			</div>
-		</div>
+		<!-- </div> -->
 		</div>
 	</div>
 	<!-- end navigation -->
