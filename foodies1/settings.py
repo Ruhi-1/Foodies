@@ -76,11 +76,12 @@ WSGI_APPLICATION = 'foodies1.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    "default": {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'foodies-main',
+        'NAME': 'mydatabase',
     }
 }
+
 
 
 # Password validation
