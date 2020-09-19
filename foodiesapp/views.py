@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render
 # from .models import Category, Product
 # from cart.forms import CartAddProductForm
 
@@ -32,6 +32,9 @@ def gelato(request):
 
 def coffee(request):
     return render(request, 'foodiesapp/coffee.html')
+
+def about(request):
+    return render(request, 'foodiesapp/about.html')
 
 
 # def product_list(request, category_slug=None):

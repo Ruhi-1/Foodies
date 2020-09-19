@@ -6,6 +6,9 @@ body
   font-weight: 400;
   position: relative;
 }
+main {
+  flex: 1 0 auto;
+}
 
 h1,h2, h3, h4,
 .navbar-default .navbar-nav li a,
@@ -142,6 +145,10 @@ img
   font-size: 17px;
   color: rgb(88, 86, 86);
   /* float: right; */
+}
+
+.contform {
+  text-align: center;
 }
 /* end weikels navigation */
 
@@ -939,6 +946,8 @@ IPAD PORTRAIT (768x1024)
  .navbar-default .navbar-brand {
   font-size: 35px;
   padding-top: 10px;
+  padding-left: 60px;
+  /* padding-right: 70px; */
 }  
 }
 
