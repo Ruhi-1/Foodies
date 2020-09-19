@@ -147,6 +147,22 @@ img
   /* float: right; */
 }
 
+.about {
+  padding: 65px 0 0 0;
+  color: #ffa400;
+  text-align: center;
+}
+
+.text-black {
+  color: black;
+  text-align: center;
+  font-size: 25px;;
+}
+.body-style {
+  padding: 20px;
+  font-size: medium;
+}
+
 .contform {
   text-align: center;
 }
