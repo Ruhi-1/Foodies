@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 # from .models import Category, Product
 # from cart.forms import CartAddProductForm
 
@@ -35,6 +35,9 @@ def coffee(request):
 
 def about(request):
     return render(request, 'foodiesapp/about.html')
+
+def contact(request):
+    return render(request, 'foodiesapp/contact.html')
 
 
 # def product_list(request, category_slug=None):

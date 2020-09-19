@@ -13,5 +13,6 @@ urlpatterns = [
     path('gelato/', views.gelato, name='gelato'),
     path('coffee/', views.coffee, name='coffee'),
     path('about/', views.about, name='about'),
+    path('contact/', views.contact, name='contact'),
 
 ]
