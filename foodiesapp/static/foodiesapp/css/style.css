@@ -14,7 +14,7 @@ h1,h2, h3, h4,
 .navbar-default .navbar-nav li a,
 .navbar-default .navbar-nav>li>a:focus
 {        
-  color: #ffa400;
+  color: #ee9014;
   font-family: 'Chewy', cursive;
   font-weight: 400;
   display: grid;
@@ -149,7 +149,7 @@ img
 
 .about {
   padding: 65px 0 0 0;
-  color: #ffa400;
+  color: #e78a10;
   text-align: center;
 }
 
@@ -198,6 +198,7 @@ img
 }
 .slider-title {
   font-size: 50px;
+  color: #e78a10;
   
 }
 .slider-subtitle {
@@ -931,7 +932,16 @@ footer
 
 /* end media quary for menu */
 
+/* start mega menu */
 
+/* @media all and (min-width: 992px) {
+	.navbar{ padding-top: 0; padding-bottom: 0; }
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+} */
+
+/* end mega menu */
 
 
 @media only screen and (max-width:360px) {

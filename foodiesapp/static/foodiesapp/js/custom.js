@@ -62,7 +62,7 @@ if ($(window).width() < 992) {
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 // function myFunction() {
-//   var x = document.getElementById("myTopnav");
+//   var x = document.getElementById("main_nav");
 //   if (x.className === "topnav") {
 //     x.className += " responsive";
 //   } else {
@@ -70,3 +70,8 @@ if ($(window).width() < 992) {
 //   }
 // }
 
+// $(document).ready(function () {
+//   $('a.nav-link.dropdown-toggle').click(function() {
+//       location.href = this.href;
+//   });
+// });
