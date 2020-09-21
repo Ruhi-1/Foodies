@@ -766,13 +766,13 @@ input[type="submit"]:hover
   position:relative;
   text-align:right;
   height:409px;
-  width:564px;
+  width:1300px;
 }
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
   height:409px;
-  width:564px;
+  width:850px;
 }
 
 /* end style for map */
