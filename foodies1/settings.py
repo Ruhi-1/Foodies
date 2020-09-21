@@ -122,4 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CART_SESSION_ID = 'cart'
+# CART_SESSION_ID = 'cart'

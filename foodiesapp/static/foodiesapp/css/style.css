@@ -147,12 +147,6 @@ img
   /* float: right; */
 }
 
-.about {
-  padding: 65px 0 0 0;
-  color: #e78a10;
-  text-align: center;
-}
-
 .text-black {
   color: black;
   text-align: center;
@@ -190,7 +184,7 @@ img
 
 .flex-caption {
   position: absolute;
-  top: 10%;
+  top: 15%;
   width: 100%;
   text-align: center;
   z-index: 999;
@@ -763,7 +757,6 @@ input[type="submit"]:hover
   color: black;
 }
 .newcont {
-  color: black;
   margin-bottom: 50px;
 }
 /* end new contact form */
