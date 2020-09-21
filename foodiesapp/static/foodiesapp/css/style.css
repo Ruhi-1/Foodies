@@ -761,6 +761,22 @@ input[type="submit"]:hover
 }
 /* end new contact form */
 
+/* start style for map */
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:409px;
+  width:564px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:409px;
+  width:564px;
+}
+
+/* end style for map */
+
 /* start footer */
 footer
 {
