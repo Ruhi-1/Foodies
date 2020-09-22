@@ -134,6 +134,8 @@ img
 /* start weikels navigation */
 .weikels {
   display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .weikelslogo {
   height: 50px;
