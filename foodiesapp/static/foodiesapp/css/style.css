@@ -2,7 +2,7 @@
 
 body
 {
-  width: 100%;
+  /* width: 100vw; */
   font-family: 'Signika', sans-serif;
   font-weight: 400;
   position: relative;
@@ -69,7 +69,7 @@ img
 
 @media (min-width: 768px) {
   .container {
-    width: 700px;
+    width: 100vw;
   }
 }
 @media (min-width: 992px) {
@@ -83,6 +83,9 @@ img
   }
 }
 
+/* .container {
+  width: 1000px;
+} */
 
 /* start all section */
 .templatemo-section
@@ -650,7 +653,7 @@ html[xmlns] .slides {
 
 /* Start lunch */
 .v-divider{
-  margin-left:5px;
+  margin-left:10px;
   margin-right:5px;
   /* padding: 0px; */
   width:530px;
