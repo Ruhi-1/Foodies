@@ -83,6 +83,7 @@ img
   }
 }
 
+
 /* start all section */
 .templatemo-section
 {
@@ -134,12 +135,12 @@ img
 /* start weikels navigation */
 .weikels {
   display: flex;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .weikelslogo {
   height: 50px;
-  padding-left: 150px;
+  padding-left: 40%;
   align-self: center;
 
 }
@@ -1007,7 +1008,9 @@ IPAD PORTRAIT (768x1024)
   padding-left: 60px;
   /* padding-right: 70px; */
 }  
-}
+} 
+
+
 
 
 

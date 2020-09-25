@@ -24,7 +24,7 @@
   nav,
   section,
   summary {
-    display: block;
+    display: grid;
   }
   audio,
   canvas,
