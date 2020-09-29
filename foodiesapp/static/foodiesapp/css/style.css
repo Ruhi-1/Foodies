@@ -66,6 +66,10 @@ img
   z-index: 1;
 }
 
+.center {
+  text-align: center;
+}
+
 
 @media (min-width: 768px) {
   .container {
